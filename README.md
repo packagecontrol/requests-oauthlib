@@ -13,10 +13,10 @@ this repo | pypi
 ![latest tag](https://img.shields.io/github/tag/packagecontrol/requests-oauthlib.svg) | [![pypi](https://img.shields.io/pypi/v/requests-oauthlib.svg)][pypi]
 
 
-## How to use *requests* as a dependency
+## How to use *requests-oauthlib* as a dependency
 
 In order to tell Package Control
-that you are using the *requests* module
+that you are using the *requests-oauthlib* module
 in your ST package,
 create a `dependencies.json` file
 in your package root
@@ -62,12 +62,6 @@ See also:
    or create a tag directly
    in the format `v<version>`
    (in case you have push access).
-
-The reason why `loader.py` exists
-is because Package Control 3.0.0
-does not yet allow the same code base
-for both ST2 and ST3
-(see wbond/package_control#818).
 
 
 ## License
