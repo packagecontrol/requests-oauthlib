@@ -63,12 +63,6 @@ See also:
    in the format `v<version>`
    (in case you have push access).
 
-The reason why `loader.py` exists
-is because Package Control 3.0.0
-does not yet allow the same code base
-for both ST2 and ST3
-(see wbond/package_control#818).
-
 
 ## License
 
